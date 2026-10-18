@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this dataset or figure, please cite the article below and this repository."
+title: "RGC Neuroprotection Wheel: in vivo testing of anti-inflammatory compounds in models of retinal ganglion cell degeneration"
+type: dataset
+version: 1.0.0
+date-released: 2026-10-18
+license: CC-BY-4.0
+# After publishing, uncomment and fill in:
+# repository-code: "https://github.com/OWNER/rgc-neuroprotection-wheel"
+# url: "https://OWNER.github.io/rgc-neuroprotection-wheel/"
+# doi: 10.5281/zenodo.XXXXXXX
+keywords:
+  - retinal ganglion cells
+  - neuroinflammation
+  - glaucoma
+  - neuroprotection
+  - TNF-alpha
+  - IL-1beta
+  - IL-6
+  - preclinical models
+authors:
+  - family-names: Malahov
+    given-names: Polina
+    orcid: "https://orcid.org/0009-0007-2447-228X"
+    affiliation: "Sorbonne Université, INSERM, CNRS, IHU FOReSIGHT, Institut de la Vision, F-75012 Paris, France"
+  - family-names: Bourdin
+    given-names: Alexandre
+    affiliation: "Sorbonne Université, INSERM, CNRS, IHU FOReSIGHT, Institut de la Vision, F-75012 Paris, France"
+  - family-names: Chabbi
+    given-names: Inés
+    affiliation: "Sorbonne Université, INSERM, CNRS, IHU FOReSIGHT, Institut de la Vision, F-75012 Paris, France"
+  - family-names: Delarasse
+    given-names: Cécile
+    affiliation: "Sorbonne Université, INSERM, CNRS, IHU FOReSIGHT, Institut de la Vision, F-75012 Paris, France"
+  - family-names: Sennlaub
+    given-names: Florian
+    affiliation: "Sorbonne Université, INSERM, CNRS, IHU FOReSIGHT, Institut de la Vision, F-75012 Paris, France"
+  - family-names: Guillonneau
+    given-names: Xavier
+    affiliation: "Sorbonne Université, INSERM, CNRS, IHU FOReSIGHT, Institut de la Vision, F-75012 Paris, France"
+preferred-citation:
+  type: article
+  title: "Pharmacological targeting of TNF-α, IL-1β and IL-6 signaling in retinal ganglion cell degeneration"
+  # After acceptance, add: journal, year, volume, doi
+  authors:
+    - family-names: Malahov
+      given-names: Polina
+    - family-names: Bourdin
+      given-names: Alexandre
+    - family-names: Chabbi
+      given-names: Inés
+    - family-names: Delarasse
+      given-names: Cécile
+    - family-names: Sennlaub
+      given-names: Florian
+    - family-names: Guillonneau
+      given-names: Xavier

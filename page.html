@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Interactive wheel of 80 in vivo experiments testing anti-inflammatory compounds in models of retinal ganglion cell degeneration, with filters and references.">
+<title>Preclinical testing of anti-inflammatory compounds in models of RGC degeneration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="wheel.css">
+</head>
+<body>
+<!-- ================================================================
+     RGC Neuroprotection Wheel: page text and structure.
+     Edit the texts freely (title, introduction, help line, footer).
+     Keep the id="..." attributes: the script uses them.
+     Preview: open this file in a browser. Publish: run build_index.bat.
+     ================================================================ -->
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Preclinical testing of anti-inflammatory compounds in models of RGC degeneration</h1>
+      <p class="sub">Anti-inflammatory compounds tested in vivo in models of retinal ganglion cell degeneration. Pick any condition on the left as the wheel's entry point, narrow it with filters, and open the studies behind each mark.</p>
+    </div>
+    <div class="totals" id="totals"></div>
+  </header>
+
+  <div class="grid">
+    <aside class="conds" aria-label="Conditions">
+      <div class="conds-head"><span class="eyebrow">Conditions</span><button class="linkbtn" id="clearAll" type="button">Clear filters</button></div>
+      <input class="search" id="q" type="search" placeholder="Search compound or author" aria-label="Search compound or author" autocomplete="off">
+      <div id="facets"></div>
+    </aside>
+
+    <section class="stage" aria-label="Wheel">
+      <div class="stage-head">
+        <div class="arr-label" id="arrLabel"></div>
+        <button class="linkbtn" id="resetView" type="button">Back to drug classes</button>
+      </div>
+      <div class="chips" id="chips"></div>
+      <div class="wheel-box"><svg class="wheel" id="wheel" viewBox="-508 -508 1016 1016" role="img" aria-label="Wheel of experiments"></svg></div>
+      <div class="key" id="key"></div>
+      <p class="howto">Each radial slice is one experiment and keeps its angle in every ring. Use “Wheel” on any condition, or pick an option in the sorting wedge at the top, to sort the wheel by it; the other rings line up as a colour bar code. Hover a segment or mark to light up those experiments everywhere; click it to list the studies.</p>
+    </section>
+
+    <section class="details" aria-label="Experiments">
+      <div class="det-head"><h2 class="det-title" id="detTitle"></h2><button class="linkbtn" id="clearSel" type="button">Show all</button></div>
+      <p class="det-meta" id="detMeta"></p>
+      <div class="det-tools">
+        <label for="sortBy">Sort studies by <select id="sortBy">
+          <option value="ref">Reference number</option>
+          <option value="year">Year (newest first)</option>
+          <option value="compound">Compound</option>
+          <option value="n">Experiments in study</option>
+        </select></label>
+        <button class="btn" id="narrow" type="button" hidden>Filter wheel to this</button>
+        <button class="btn" id="copyTable" type="button">Copy as table</button>
+        <span class="copied" id="copyMsg" role="status"></span>
+      </div>
+      <div class="list" id="list"></div>
+    </section>
+  </div>
+
+  <footer class="note">
+    Data: the 80 in vivo experiments listed in Tables 1–3 of Malahov et al., “Pharmacological targeting of TNF-α, IL-1β and IL-6 signaling in retinal ganglion cell degeneration” (manuscript under review). One experiment = one study × compound × model/species × route. Treatment duration counts days from first to last dose, inclusive (continuous dosing until sacrifice; several arms = longest). Reference numbers follow the manuscript. “No RGC readout” marks studies that reported inflammatory or structural endpoints without RGC counts.
+  </footer>
+</div>
+
+<div class="tip" id="tip" hidden></div>
+<dialog id="refDlg" aria-labelledby="dlgTitle"><div class="dlg" id="dlgBody"></div></dialog>
+
+<script src="../data/data.js"></script>
+<script src="settings.js"></script>
+<script src="wheel.js"></script>
+</body>
+</html>
