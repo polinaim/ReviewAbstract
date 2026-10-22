@@ -1,7 +1,7 @@
 {
   "title": "RGC Neuroprotection Wheel: in vivo testing of anti-inflammatory compounds in models of retinal ganglion cell degeneration",
   "upload_type": "dataset",
-  "description": "<p>Curated dataset, code and interactive figure accompanying the review <em>Pharmacological targeting of TNF-α, IL-1β and IL-6 signaling in retinal ganglion cell degeneration</em> (Malahov et al.). The dataset lists the 80 in vivo experiments summarised in Tables 1–3 of the review (49 compounds, 68 studies), with drug class, route of administration, injury model, treatment duration, RGC outcome and reference. The interactive wheel (index.html) sorts and filters the experiments by any of these conditions and links each one to its source study; the static figure is the article's graphical abstract.</p>",
+  "description": "<p>Curated dataset, code and interactive figure accompanying the review <em>Pharmacological targeting of TNF-α, IL-1β and IL-6 signaling in retinal ganglion cell degeneration</em> (Malahov et al.). The dataset lists the 76 in vivo experiments summarised in Tables 1–3 of the review (47 compounds, 65 studies), with drug class, route of administration, injury model, treatment duration, RGC outcome and reference. The interactive wheel (index.html) sorts and filters the experiments by any of these conditions and links each one to its source study; the static figure is the article's graphical abstract.</p>",
   "creators": [
     {
       "name": "Malahov, Polina",
@@ -41,6 +41,6 @@
     "IL-6",
     "preclinical models"
   ],
-  "version": "1.0.0",
+  "version": "1.2.0",
   "language": "eng"
 }

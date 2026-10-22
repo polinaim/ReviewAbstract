@@ -1,7 +1,7 @@
 """
 Step 1 of 3: read data/RGC_wheel_source_data.xlsx and write data/data.json and data/data.js.
 
-Only rows with In Tables 1-3 = yes and Include in figure = yes are drawn (80 experiments).
+Only rows with In Tables 1-3 = yes and Include in figure = yes are drawn (76 experiments).
 The dosing group is recomputed from the treatment duration and checked against the
 workbook's formula column, so the workbook does not need to be recalculated first.
 
