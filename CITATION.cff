@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this dataset or figure, please cite the article below and this repository."
 title: "RGC Neuroprotection Wheel: in vivo testing of anti-inflammatory compounds in models of retinal ganglion cell degeneration"
 type: dataset
-version: 1.1.0
+version: 1.2.0
 date-released: 2026-10-22
 license: CC-BY-4.0
 # After publishing, uncomment and fill in:

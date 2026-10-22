@@ -95,7 +95,7 @@ README for the next release.
   65 studies, 62% acute injury models, 26 single-dose experiments, 69% of repeated-dose
   regimens ≤ 4 weeks. Genetic / metabolic models are 10 of 76 = 13.2% (13% in the text).
 - Two curated rows are kept in the workbook but not drawn (In wheel = no): etanercept
-  [56] in sonication-induced traumatic optic neuropathy (not in Table 1) and BIRB 796 [88]
+  [56] in sonication-induced traumatic optic neuropathy (not in Table 1) and BIRB 796 [94]
   in squirrel monkeys (non-rodent arm, not in Table 2).
 - Infliximab and adalimumab were removed from Table 1 and from this dataset: neither
   antibody has demonstrated cross-reactivity with rodent or rabbit TNF-α, so the
