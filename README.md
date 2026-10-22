@@ -14,8 +14,8 @@ Interactive figure and curated dataset accompanying the review
 ![Graphical abstract](figure/graphical_abstract_wheel.png)
 
 **Graphical abstract.** Preclinical testing of anti-inflammatory compounds in models of
-retinal ganglion cell (RGC) degeneration. Each radial slice is one of the 80 in vivo
-experiments summarized in Tables 1–3 (49 compounds, 68 studies), arranged by drug class
+retinal ganglion cell (RGC) degeneration. Each radial slice is one of the 76 in vivo
+experiments summarized in Tables 1–3 (47 compounds, 65 studies), arranged by drug class
 and grouped as cytokine antagonists, pathway inhibitors and broad agents. From the centre
 outward, the rings show the injury model category, the route of administration and the
 signalling pathway targeted (colours as in Figure 2); outer dots mark single-dose
@@ -88,15 +88,19 @@ README for the next release.
 
 ## Checks for this version
 
-- All 72 compound–reference pairs in Tables 1–3 (64 table rows) have an experiment row,
+- All 69 compound–reference pairs in Tables 1–3 (61 table rows) have an experiment row,
   every drawn row is in the tables, and the species of each table row match.
 - Reference numbers, titles and DOIs match the manuscript reference list.
-- The *Summary* sheet reproduces the counts in the text: 80 experiments, 49 compounds,
-  68 studies, 64% acute injury models, 30 single-dose experiments, 69% of repeated-dose
-  regimens ≤ 4 weeks. Genetic / metabolic models are 10 of 80 = 12.5% (12% in the text).
+- The *Summary* sheet reproduces the counts in the text: 76 experiments, 47 compounds,
+  65 studies, 62% acute injury models, 26 single-dose experiments, 69% of repeated-dose
+  regimens ≤ 4 weeks. Genetic / metabolic models are 10 of 76 = 13.2% (13% in the text).
 - Two curated rows are kept in the workbook but not drawn (In wheel = no): etanercept
   [56] in sonication-induced traumatic optic neuropathy (not in Table 1) and BIRB 796 [88]
   in squirrel monkeys (non-rodent arm, not in Table 2).
+- Infliximab and adalimumab were removed from Table 1 and from this dataset: neither
+  antibody has demonstrated cross-reactivity with rodent or rabbit TNF-α, so the
+  reported effects cannot be attributed to TNF-α neutralisation. This removed four
+  experiments (three studies, two compounds) from the previous version.
 
 ## Citation and licence
 
